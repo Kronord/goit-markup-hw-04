@@ -135,8 +135,6 @@ body {
     fill: currentColor;
 }
 
-
-
 /* Slider */
 
 .slider-section {
@@ -147,14 +145,15 @@ body {
         rgba(47, 48, 58, 0.4),
         rgba(0, 0, 0, 0.5)),url(../images/Slider-1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1600px;
+    background-position: center;
 }
 .page-title {
-    margin: 0 auto 40px;
+    margin: 0 auto 30px;
     max-width: 696px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     color: var(--secondary-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -204,8 +203,9 @@ body {
 }
 .icon-box {
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 25px 0;
+    height: 120px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
 }
@@ -258,6 +258,7 @@ body {
 .team-social {
     display: flex;
     justify-content: center;
+    margin-top: 16px;
 }
 .icon-item {
     margin-right: 10px;
@@ -266,10 +267,12 @@ body {
     margin-right: 0;
 }
 .team-link {
+    width: 44px;
+    height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+
 }
 .team-link:hover,
 .team-link:focus {
@@ -293,7 +296,7 @@ body {
     color: var(--title-color);
 }
 .member-box {
-    padding: 30px 20px 16px 20px;
+    padding: 30px 20px 0;
 }
 .team-section {
     background-color: var(--cards-section-color);
@@ -323,7 +326,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 31px;
+    width: 170px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
@@ -384,14 +388,10 @@ body {
 }
 .footer-box {
     display: flex;
+    align-items: baseline;
 }
 .address-box {
     margin-right: 70px;
-}
-.social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .subscribe {
     font-weight: 700;
@@ -416,7 +416,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    width: 44px;
+    height: 44px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
