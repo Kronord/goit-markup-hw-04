@@ -140,10 +140,11 @@ body {
 .slider-section {
     text-align: center;
     padding: 200px 0;
-    background-color: var(--slider-color);
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
-        rgba(0, 0, 0, 0.5)),url(../images/Slider-1.jpg);
+        rgba(0, 0, 0, 0.5)),url(../images/Slider-1.jpg),
+        linear-gradient(rgba(47, 48, 58, 1),
+        rgba(47, 48, 58, 1));
     background-repeat: no-repeat;
     background-size: 1600px;
     background-position: center;
@@ -253,7 +254,6 @@ body {
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
 }
 .team-social {
     display: flex;
@@ -296,7 +296,7 @@ body {
     color: var(--title-color);
 }
 .member-box {
-    padding: 30px 20px 0;
+    padding: 30px 20px;
 }
 .team-section {
     background-color: var(--cards-section-color);
